@@ -5,6 +5,10 @@ $(function(){
 	$('.hovercard-open').click(function(){
 		var top = $(document).scrollTop();
 		$('.hovercard').hide().show();
+
+		$('.main').css({
+			'opacity' : '0.4'
+		});
 		
 		$('body').css({
 			'overflow' : 'hidden'
@@ -22,6 +26,9 @@ $(function(){
 		$('.hovercard').hide();
 		$('body').css({
 			'overflow' : 'auto'
+		});
+		$('.main').css({
+			'opacity' : '1'
 		});
 	});
 });
