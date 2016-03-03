@@ -28,14 +28,14 @@ header{
 	font-family: serif;
 	font-size: 3.0em;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 40px;
     color: #30BFB3;
     margin-top: 5%;
 }
 
 .main-foot{
     color: #30BFB3;
-    margin-top: 25px;
+    margin-top: 55px;
     font-size: 16px;
 }
 
@@ -58,6 +58,12 @@ header{
 .logo{
 	color: #30BFB3;
 	padding-top: 15px;
+}
+
+.logo big{
+	font-family: serif;
+	font-size: 1.6em;
+	opacity: 0.7;
 }
 
 .main-nav a{
@@ -145,10 +151,17 @@ a{
 	font-size: 13px;
 }
 
-.to-top{
-	float: right;
-	width: 40%;
-	font-size: 0.8em;
+.credits small{
+	display: block;
+	font-family: serif;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-size: 1.1em;
+}
+
+.credits big{
+	font-family: serif;
+	font-size: 1.6em;
 }
 
 .hovercard{
@@ -188,9 +201,15 @@ footer{
 	padding-bottom: 15px;
 }
 
-footer a, a:hover, a:active, a:before{
-	color: inherit;
+a, a:hover, a:active, a:before{
+	color: #000;
 	font-weight: bold;
+}
+
+.small-cap-arial{
+	font-family: sans-serif;
+	text-transform: lowercase;
+	font-variant: small-caps;
 }
 
 footer h2{
