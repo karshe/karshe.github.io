@@ -77,6 +77,7 @@ header{
 
 .main-nav a:hover{
 	opacity: 1;
+	color: #30BFB3;
 }
 
 .main h2{
@@ -201,7 +202,7 @@ footer{
 	padding-bottom: 15px;
 }
 
-a, a:hover, a:active, a:before{
+footer a, a:hover, a:active, a:before{
 	color: #000;
 	font-weight: bold;
 }
