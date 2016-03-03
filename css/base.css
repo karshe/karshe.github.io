@@ -26,7 +26,7 @@ header{
 
 .main-nav{
 	font-family: serif;
-	font-size: 3.5em;
+	font-size: 3.0em;
     font-weight: 700;
     line-height: 60px;
     color: #30BFB3;
@@ -127,7 +127,6 @@ a{
     background: #30BFB3;
     color: #000;
 }
-
 
 .loader{
 	display: none;
