@@ -210,6 +210,10 @@ footer h2{
 }
 
 @media only screen and (max-width: 420px){
+	header{
+		border: 5px solid #30BFB3;
+	}
+
 	.main-nav{
 		font-size: 2em;
 	}
