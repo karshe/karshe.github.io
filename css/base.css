@@ -146,6 +146,13 @@ a{
 	margin-top: 15px;
 }
 
+.righter{
+	float: right;
+	display: inline;
+	margin-top: -280px;
+	opacity: 0.7;
+}
+
 .project big{
 	font-family: serif;
 }
@@ -240,6 +247,10 @@ footer h2{
 }
 
 @media only screen and (max-width: 420px){
+	.rightimg{
+		display: none;
+	}
+
 	.wrap{
 		width: 90%;
 	}
