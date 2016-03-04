@@ -170,6 +170,7 @@ a{
 
 .credits ul{
 	list-style: none;
+	margin-bottom: 10px;
 }
 
 .hovercard{
@@ -226,8 +227,11 @@ footer h2{
 }
 
 .copyright{
-	text-transform: uppercase;
 	opacity: 0.3;
+}
+
+.copyright small{
+	text-transform: uppercase;
 }
 
 ::selection{
