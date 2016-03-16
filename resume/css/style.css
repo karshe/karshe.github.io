@@ -1,0 +1,187 @@
+body{
+	background: #eee;
+	font-family: 'Arial', sans-serif;
+}
+
+header{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.projectContainer{
+	position: relative;
+	top: 60px;
+	width: 80%;
+	margin: 0px auto;
+}
+
+.projectContainer h1{
+	font-family: serif;
+	font-size: 3em;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.projectContainer h4{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border-bottom: 3px solid #000;
+	padding-bottom: 2px;
+}
+
+.headerNavbar ul{
+	width: 100%;
+    text-align: center;
+}
+
+.headerNavbar .dropdown{
+	float: none;
+}
+
+.headerNavbar .dropdown-menu{
+	text-align: center;
+    width: 100%;
+    font-family: serif;
+	font-size: 2.3em;
+	text-transform: none;
+	letter-spacing: -2px;
+}
+
+.projectIndex{
+	font-family: serif;
+	font-size: 10em;
+	margin-top: 0px;
+	opacity: 0.3;
+	font-style: italic;
+}
+
+.projectContent{
+	margin-top: -10em;
+	margin-left: 2em;
+}
+
+.projectObjective{
+	height: 550px;
+	background: #0976D4;
+	color: #fff;
+	border-radius: 0px;
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+	-moz-box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+	box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+}
+
+.projectObjective h3{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.projectObjective p{
+	font-family: serif;
+	font-size: 2em;
+	letter-spacing: -1px;
+}
+
+.projectTechnology h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.projectTechnology h4{
+	border: none;
+	font-size: 2em;
+}
+
+.projectHow{
+	margin-bottom: 10vh;
+}
+
+.projectHow h2{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.projectHow p{
+	font-family: serif;
+	font-size: 1.2em;
+}
+
+.projectStat{
+	height: 550px;
+	background: #000;
+	color: #fff;
+	border-radius: 0px;
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+	-moz-box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+	box-shadow: 0px 0px 7px 1px rgba(166,166,166,0.4);
+}
+
+.projectStat h3{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.projectStat p{
+	font-family: serif;
+	font-size: 2em;
+	letter-spacing: -1px;
+}
+
+.projectStat big{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.projectStat small{
+	text-transform: lowercase;
+	vertical-align: super;
+    border-bottom: 1px solid;
+}
+
+.projectHowPanel p{
+	text-transform: none;
+	border: none;
+}
+
+.projectHowPanel h4{
+	border: none;	
+}
+
+.bottomCalc{
+	position: absolute;
+	bottom: 30px;
+}
+
+@media only screen and (max-width: 420px){
+	.headerNavbar ul{
+		width: auto;
+	}
+
+	.projectContainer{
+		width: 95%;
+	}
+
+	.projectTechnology{
+		margin-bottom: 50px;
+	}
+
+	.projectTechnology h4{
+		font-size: 1.7em;
+	}
+
+	.projectStat big{
+		font-size: 1.3em;
+		display: block;
+	}
+
+	.projectStat small{
+		font-size: 0.7em;
+	}
+}
