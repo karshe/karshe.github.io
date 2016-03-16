@@ -157,6 +157,23 @@ header{
 .bottomCalc{
 	position: absolute;
 	bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	opacity: 0.8;
+	font-size: 0.7em;
+}
+
+.projectSlideshow h3{
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.projectSlide{
+	height: 590px;
+	margin-bottom: 15px;
+	background: #fff;
 }
 
 @media only screen and (max-width: 420px){
@@ -183,5 +200,14 @@ header{
 
 	.projectStat small{
 		font-size: 0.7em;
+	}
+
+	.projectSlide{
+		height: auto;
+		background: #fff;
+	}
+
+	.projectSlideshow{
+		display: none;
 	}
 }
