@@ -61,7 +61,7 @@ header{
 }
 
 .projectObjective{
-	height: 550px;
+	min-height: 550px;
 	background: #0976D4;
 	color: #fff;
 	border-radius: 0px;
