@@ -176,6 +176,36 @@ header{
 	background: #fff;
 }
 
+.footerNav h3{
+	font-family: serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+.leftNav{
+	float: left;
+}
+
+.rightNav{
+	float: right;
+}
+
+.footerNav a, .footerNav a:hover{
+	text-decoration: none;
+}
+
+.projectExplorerBtn{
+	position: absolute;
+	bottom: 35px;
+	right: 35px;
+}
+
+.projectExplorerBtn a{
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
 @media only screen and (max-width: 420px){
 	.headerNavbar ul{
 		width: auto;
