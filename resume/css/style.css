@@ -200,8 +200,7 @@ header{
 	right: 35px;
 }
 
-.projectExplorerBtn a{
-	font-size: 1.2em;
+.btn-info{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
