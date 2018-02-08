@@ -8,7 +8,11 @@
 
 <p>
  If you wish to visit my website, please head over to
- <a href="http://karshe.github.io/">karshe.github.io</a>
+ <a href="https://karshe.github.io/">karshe.github.io</a>
+</p>
+
+<p>
+ You are free to use any of the code I used in this website &mdash; have happy coding. 
 </p>
 
 <hr />
